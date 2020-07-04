@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import <TTAlertView.h>
 @interface ViewController ()
 
 @end
@@ -17,6 +17,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    TTAlertView *alert = [[TTAlertView alloc] init];
+    alert.backgroundColor = UIColor.whiteColor;
 }
 
 
